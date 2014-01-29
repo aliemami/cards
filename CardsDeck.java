@@ -1,5 +1,3 @@
-
-
 import java.util.Collections;
 import java.util.EmptyStackException;
 import java.util.Random;
