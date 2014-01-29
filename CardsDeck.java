@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Stack;
 
 public class CardsDeck{
-	//numver if cards in a deck
+	//number of cards in one deck
 	private static final int NUMCARDS = 52;
 
 	private Stack<Card> deck = null;
