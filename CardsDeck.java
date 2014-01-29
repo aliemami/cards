@@ -54,20 +54,24 @@ public class CardsDeck{
 		//create a new deck of card
 		CardsDeck cardsDeck = new CardsDeck();
 		//print it
+		System.out.println("brand new deck.");
+		System.out.println("--------------");
 		System.out.println(cardsDeck);
 
 		//shuffle it and print it again
 		cardsDeck.shuffle();
+		System.out.println("\n deck after shuffle.");
+		System.out.println("--------------");
 		System.out.println(cardsDeck);
-		System.out.println("\n--------------");
 
 		//deal a card and print it to the screen 
 		Card card = cardsDeck.deal();
-		System.out.println("dealt card:" + card);
-		System.out.println("\n--------------");
+		System.out.println("\n dealt card:" + card);
+		System.out.println("--------------");
 
 		//reprint the deck
-		System.out.println("print it again");
+		System.out.println("\n print it again");
+		System.out.println("--------------");
 		System.out.println(cardsDeck);
 
 	}
