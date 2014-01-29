@@ -37,7 +37,7 @@ public class Card {
 	 *@param i  a number between 0 and 52 represent each card in a deck
 	 */
 	public Card(int i) {
-		if (i<0 || i > 51) {
+		if (i < 0 || i > 51) {
 			throw new RuntimeException( i + " is not representation of a card, the number has to be between 0 and 51.");
 		}
 		int s = i / NUMBEROFCARDS_IN_EACH_DECK;
